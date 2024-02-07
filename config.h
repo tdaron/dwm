@@ -96,7 +96,7 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_apostrophe,             3)
 	TAGKEYS(                        XK_parenleft,              4)
 	TAGKEYS(                        XK_minus,                  5)
-	TAGKEYS(                        XK_egrave,                 6)
+	TAGKEYS(                        XK_section,                 6)
 	TAGKEYS(                        XK_underscore,             7)
 	TAGKEYS(                        XK_ccedilla,               8)
 
