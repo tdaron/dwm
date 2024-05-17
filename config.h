@@ -63,11 +63,13 @@ static const Layout layouts[] = {
 static const char *dmenucmd[] = {"rofi", "-show", "drun", "-show-icons", NULL};
 static const char *termcmd[]  = { "alacritty", NULL };
 static const char *slayout[]  = { "/home/theo/.local/scripts/s_layout", NULL };
+static const char *skeyboard[]  = { "/home/theo/.local/scripts/s_keyboard", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_s,      spawn,          {.v = slayout } },
+	{ MODKEY,                       XK_k,      spawn,          {.v = skeyboard } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
